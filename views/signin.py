@@ -9,7 +9,7 @@ class SignInView(Frame):
         self.grid_columnconfigure(1, weight=1)
 
         self.header = Label(self, text="Sign In with existing account")
-        self.header.grid(row=0, column=0, columnspan=2, padx=10, pady=10)
+        self.header.grid(row=0, column=0, columnspan=2, padx=5, pady=5, sticky="w")
 
         self.username_label = Label(self, text="Username")
         self.username_input = Entry(self)
